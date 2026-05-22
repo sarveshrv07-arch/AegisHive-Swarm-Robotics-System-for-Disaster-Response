@@ -46,3 +46,32 @@ python train_model.py
 python dashboard.py
 python main.py
 ```
+
+## Project Screenshots
+
+### GitHub Repository
+![GitHub 1](screenshots/1_github/github%201.png)
+![GitHub 2](screenshots/1_github/github%202.png)
+
+### README Overview
+![README 1](screenshots/2_readme/readme%201.png)
+![README 2](screenshots/2_readme/readme%202.png)
+
+### Project Folder Structure
+![Folder Structure 1](screenshots/3_folder_structure/folder%20structure%201.png)
+![Folder Structure 2](screenshots/3_folder_structure/folder%20structure%202.png)
+
+### Machine Learning Training
+![ML Training](screenshots/4_ml_training/ml%20training.png)
+
+### Dashboard
+![Dashboard](screenshots/5_dashboard/dashboard.png)
+
+### Status API
+![Status API](screenshots/6_status_api/status_api.png)
+
+### Swarm Robot Simulation
+![Simulation](screenshots/7_simulation/simulation.png)
+
+### Analytics - Battery Monitoring
+![Analytics](screenshots/8_analytics/battery%20chart.png)
