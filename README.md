@@ -74,4 +74,4 @@ python main.py
 ![Simulation](screenshots/7_simulation/simulation.png)
 
 ### Analytics - Battery Monitoring
-![Analytics](screenshots/8_analytics/battery%20chart.png)
+![Analytics](screenshots/8_analytics/battery_chart.png)
