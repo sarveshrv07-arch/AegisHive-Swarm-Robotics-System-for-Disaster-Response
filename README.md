@@ -75,3 +75,6 @@ python main.py
 
 ### Analytics - Battery Monitoring
 ![Analytics](screenshots/8_analytics/battery_chart.png)
+
+### System Architecture
+![Architecture](screenshots/9_project architecture/architecture_diagram.png)
