@@ -65,7 +65,7 @@ python main.py
 ![ML Training](screenshots/4_ml_training/ml%20training.png)
 
 ### Dashboard
-![Dashboard](screenshots/5_dashboard/dashboard.png)
+![Dashboard](screenshots/5_dashboard/dashboard_final.png)
 
 ### Status API
 ![Status API](screenshots/6_status_api/status_api.png)
