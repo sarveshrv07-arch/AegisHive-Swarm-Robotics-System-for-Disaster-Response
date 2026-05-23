@@ -58,8 +58,8 @@ python main.py
 ![README 2](screenshots/2_readme/readme%202.png)
 
 ### Project Folder Structure
-![Folder Structure 1](screenshots/3_folder_structure/folder%20structure%201.png)
-![Folder Structure 2](screenshots/3_folder_structure/folder%20structure%202.png)
+![Folder Structure 1](screenshots/3_folder_structure/folder_structure_1.png)
+![Folder Structure 2](screenshots/3_folder_structure/folder_structure_2.png)
 
 ### Machine Learning Training
 ![ML Training](screenshots/4_ml_training/ml%20training.png)
