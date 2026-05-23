@@ -14,6 +14,8 @@ pygame.display.set_caption("AegisHive")
 
 clock = pygame.time.Clock()
 
+font = pygame.font.Font(None, 24)
+
 environment = DisasterEnvironment(
     MAP_WIDTH,
     MAP_HEIGHT
@@ -41,6 +43,22 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+    # Base Station
+    pygame.draw.rect(
+        screen,
+        (0, 0, 255),
+        (40, 40, 120, 80)
+    )
+
+    base_text = font.render(
+        "Base Station",
+        True,
+        (255, 255, 255)
+    )
+
+    screen.blit(base_text, (50, 70))
+
+    # Obstacles
     for obstacle in environment.obstacles:
 
         pygame.draw.circle(
@@ -50,6 +68,7 @@ while running:
             5
         )
 
+    # Survivors
     for survivor in environment.survivors:
 
         pygame.draw.circle(
@@ -59,15 +78,40 @@ while running:
             5
         )
 
+    # Robots
     for robot in robots:
 
         robot.move()
 
+        battery_level = 100 - (robot.x % 100)
+
+        if battery_level < 20:
+
+            robot_color = (255, 0, 0)
+            status = "Returning"
+
+        else:
+
+            robot_color = (0, 255, 255)
+            status = "Active"
+
         pygame.draw.circle(
             screen,
-            (0, 255, 255),
+            robot_color,
             (robot.x * 10, robot.y * 7),
             8
+        )
+
+        # Robot Label
+        robot_label = font.render(
+            f"R{robot.robot_id}",
+            True,
+            (255, 255, 255)
+        )
+
+        screen.blit(
+            robot_label,
+            (robot.x * 10 + 10, robot.y * 7)
         )
 
         detected = robot.detect_survivor(environment)
