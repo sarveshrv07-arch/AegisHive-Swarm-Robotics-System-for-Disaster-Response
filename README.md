@@ -77,4 +77,4 @@ python main.py
 ![Analytics](screenshots/8_analytics/battery_chart.png)
 
 ### System Architecture
-![Architecture](screenshots/9_project architecture/architecture_diagram.png)
+![Architecture](screenshots/9_project_architecture/architecture_diagram.png)
